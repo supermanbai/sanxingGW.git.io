@@ -1,0 +1,512 @@
+/*---公共样式---*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.youlun h1,.hot h1 {
+    font-size: 26px;
+    font-weight: 100;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/*.container {*/
+    /*width: 80%;*/
+    /*margin: auto;*/
+    /*!*border: 1px solid red;*!*/
+/*}*/
+
+
+/*---header 部分---*/
+header {
+
+}
+
+.head_top {
+    width: 100%;
+    height: 36px;
+    background: #f2f2f2;
+}
+.container::after,header::after,.row::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.head_top p {
+    float: left;
+    line-height: 36px;
+}
+.head_top a {
+    display: block;
+    line-height: 36px;
+    float: right;
+    text-decoration: none;
+    color: black;
+
+}
+.head_top a:hover {
+    color: #337ab7;
+}
+
+/*---nav 导航部分---*/
+nav {
+    /*background: red;*/
+    height: 60px;
+    border-bottom: 2px solid #EEEEEE;
+}
+.nav_left {
+    float: left;
+    /*width: 40%;*/
+    padding-top: 10px;
+    position: relative;
+    margin-left: -100px;
+}
+.nav_left li,.nav_right li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    padding: 10px 12px;
+}
+.nav_left li a {
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    line-height: 30px;
+    font-size: 15px;
+    color: black;
+    /*position: relative;*/
+    text-decoration: none;
+}
+.nav_right {
+    float: right;
+    /*width: 40%;*/
+    text-align: right;
+    /*margin-right: -100px;*/
+    padding-top: 10px;
+}
+.nav_right li a {
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    line-height: 30px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.nav_right li i {
+    padding: 5px;
+}
+.logo {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+.logo img {
+
+    width: 50%;
+    margin: auto;
+    padding: 20px 0 0 0;
+}
+
+
+
+/*main*/
+.main_left {
+    /*border: 1px solid red;*/
+}
+.mleft::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.mleft a{
+    display: block;
+    float: left;
+}
+.mleft p {
+    float: left;
+}
+
+/*---side---*/
+.side {
+    background: #f2f2f2;
+}
+.side h2 {
+    font-size: 20px;
+    padding: 10px;
+    background: #e0e0e0;
+    margin: 0;
+}
+.p_txt {
+    color: #1428a0;
+    margin:0 10px;
+    background: #ffffff;
+    padding: 10px;
+}
+.p_write {
+    background: #ffffff;
+    margin:0 10px;
+    padding: 10px;
+}
+.mtop {
+    margin-top: 20px;
+}
+.black,.blue ,.pink,.gery,.red,.purple,.green {
+    /*background: #000000;*/
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: left;
+}
+.black:hover,.blue:hover,.c_pink:hover,.gery:hover,.red:hover,.purple:hover,.green:hover {
+    opacity: 0.8;
+}
+.side::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.c_black {
+    background: #000000;
+}
+.c_blue {
+    background: #0F5EB9;
+}
+.c_pink {
+    background: #FFC6F4;
+}
+.c_gery {
+    background: #a0a0a0;
+}
+.c_red {
+    background: #fb0b0c;
+}
+.c_purple {
+    background: #a331bf;
+}
+.c_green {
+    background: #e1dec4;
+}
+
+/*---show---*/
+.show_pig {
+    padding-top: 50px;
+    text-align: center;
+}
+.show_pig img {
+    width: 100%;
+}
+
+.show_color {
+    width: 150px;
+    /*text-align: center;*/
+    margin: auto;
+    padding: 20px 0;
+}
+
+.show_color::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.show_txta a {
+    display: block;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.text_decoration {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*f_banner*/
+.f_banner {
+    margin: 100px 0;
+}
+.f_banner img {
+    width: 100%;
+}
+
+
+
+/*footer*/
+.footer_b {
+    margin-top: 50px;
+    padding-top: 50px;
+    background: #F5F5F5;
+}
+.user ul {
+    display: inline-block;
+}
+.user ul li {
+    list-style: none;
+    padding-top: 5px;
+}
+.user ul li a {
+    color: #333333;
+}
+.user ul li a:hover {
+    color: #337ab7;
+}
+
+.icon ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+
+}
+.icon ul li i {
+    font-size: 30px;
+}
+.icon ul li i:hover {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+
+.footer_san {
+    background: #525252;
+}
+.ftxt .ul {
+    margin: 10px 0;
+}
+.ftxt .ul li {
+    display: inline-block;
+    padding: 5px;
+}
+.ftxt .ul li a{
+    color: #ffffff;
+}
+.ftxt .p {
+    color: #cccccc;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.fuwu p{
+    margin: 10px 0;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+}
+.fuwu span {
+    color: #cccccc;
+    padding: 5px;
+}
+
+/*登陆*/
+
+
+
+.dialog.login-dialog {
+    padding: 30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 1px;
+    width: 500px;
+    max-width: 500px;
+
+}
+.dialhhh{
+    margin-top: 0px;
+    margin-left: -281px;
+    left: 50%;
+    top: 610px;
+    position: absolute;
+}
+.dialog {
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    position: fixed;
+    padding: 40px;
+    border-radius: 4px;
+    left: 50%;
+    top: 100px;
+    opacity: 1;
+    z-index: 1020;
+    display: none;
+}
+.dialog .dialog-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.login-dialog .icon-close {
+    height: 22px;
+    overflow: hidden;
+    right: 30px;
+    text-indent: -1000px;
+    top: 30px;
+    display: block;
+    width: 22px;
+    position: absolute;
+}
+
+.dialog .icon-close {
+    height: 26px;
+    overflow: hidden;
+    right: -13px;
+    text-indent: -1000px;
+    top: -13px;
+    width: 26px;
+}
+.dialog .icon-close {
+    cursor: pointer;
+    height: 40px;
+    line-height: 36px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+.icon-close {
+    font-size: 18px;
+}
+.icon {
+    font-style: normal!important;
+    font-weight: normal;
+}
+.icon-close {
+    font-size: 18px;
+}
+.icon {
+    font-style: normal!important;
+    font-weight: normal;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-submit-popur {
+    width: 100%;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    padding: 0;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0;
+    border: 0;
+    background-color: #1428a0;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    color: #ffffff;
+    background: #337ab7;
+}
+.form-login .form-bg input {
+    background: #f0f1f1;
+    border: 0;
+    height: 30px;
+    text-indent: 10px;
+    outline: medium;
+}
+.form-input input {
+    width: 100%;
+}
+.control-label {
+    font-weight: 100;
+    font-size: 20px;
+}
+.icon_c {
+    width: 10px;
+    height: 10px;
+    z-index: 9999;
+    background: #000;
+}
+.icon_c img {
+    right: 10px;
+    position: absolute;
+    top: 10px;
+}
+.icon_c::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+.xiala {
+    width: 900px;
+    position: absolute;
+    z-index: 999;
+    background: #ffffff;
+    margin-top: 9px;
+    display: none;
+    cursor: pointer;
+}
+.xiala img {
+    width: 100%;
+}
+.img_box {
+    width: 15%;
+    overflow: hidden;
+    float: left;
+    padding-left: 10px;
+}
+.img_box p {
+    text-align: center;
+    padding: 5px;
+}
+.img_boxtxt p {
+
+}
+.asd {
+    padding-left: 10px;
+    display: block;
+}
+
+
+
+
+
+
+
+.border_r {
+    border-right: 1px solid #EEEEEE;
+}
+.list_la {
+    text-align: center;
+}
+.list_la img{
+    width: 100%;
+}
+.list_la p {
+    padding: 10px;
+}
+.list_r p {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
